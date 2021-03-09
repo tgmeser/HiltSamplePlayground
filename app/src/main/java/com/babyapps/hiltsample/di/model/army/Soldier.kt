@@ -4,7 +4,7 @@ import javax.inject.Inject
 import javax.inject.Named
 
 //This is the plan ;
-//A class get an injection object as constructor in itself
+//A class takes an injection object as constructor 
 //And this injection object implements some interfaces
 //The meaning of soldier takes marine(as inj. obj.) which implements ranger or diver or both
 //Hilt needs provider method which gets @Provide annotation to access diveDeep methon on marine above
